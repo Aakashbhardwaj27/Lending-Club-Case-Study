@@ -1,7 +1,7 @@
 # Lending Club Case Study
 > [LendingClubCaseStudy.ipynb](/LendingClubCaseStudy.ipynb)
 
-> [LendingClubCaseStudy.PPT](/LendingClubCaseStudy.pdf)
+> [LendingClubCaseStudy.pdf](/LendingClubCaseStudy.pdf)
 
 
 ## Table of Contents
