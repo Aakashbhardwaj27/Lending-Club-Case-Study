@@ -1,4 +1,5 @@
 # Lending Club Case Study
+* [AakashBhardwaj.ipynb](/AakashBhardwaj.ipynb)
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -43,13 +44,6 @@ Borrowers with lower annual income tend to default more, showing that income is 
 
 ### Correlation Matrix
 The correlation matrix revealed key relationships between numerical variables, such as the strong correlation between loan amount and interest rate.
-
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
