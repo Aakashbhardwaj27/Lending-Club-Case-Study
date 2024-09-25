@@ -1,5 +1,7 @@
 # Lending Club Case Study
-* [AakashBhardwaj.ipynb](/AakashBhardwaj.ipynb)
+> [LendingClubCaseStudy.ipynb](/LendingClubCaseStudy.ipynb)
+> [LendingClubCaseStudy.PPT](/LendingClubCaseStudy.pdf)
+
 
 ## Table of Contents
 * [General Info](#general-information)
