@@ -1,38 +1,49 @@
-# Project Name
-> Lending Club Case Study
-
+# Lending Club Case Study
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* [Analysis and Observations](#analysis-and-observations)
+* [Further Analysis](#further-analysis)
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+This project focuses on analyzing loan data from Lending Club to identify trends and patterns in loan performance. The aim is to understand the nature of loans, identify potential defaulters, and categorize loans into "good" and "bad" based on various factors.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Background
+Lending Club provides peer-to-peer loans, where borrowers receive loans directly from investors. The goal of this case study is to examine the data, detect any potential default risk, and categorize loans as good or bad based on factors like loan amount, interest rate, and annual income.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- The loan amount distribution is right-skewed, with most borrowers seeking smaller loans.
+- There is a positive correlation between loan amount and interest rate, indicating that higher loan amounts come with higher interest rates.
+- Annual income plays a significant role in loan performance, with borrowers earning less tending to default more often.
+- Loans with higher interest rates and larger loan amounts are more prone to default, while smaller, lower-interest loans tend to be less risky.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.10
+- pandas - version 1.3.3
+- seaborn - version 0.11.2
+- matplotlib - version 3.4.3
+- scikit-learn - version 0.24.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Analysis and Observations
+
+### Loan Amount Distribution
+The distribution of loan amounts is right-skewed, indicating that a larger number of loans are for smaller amounts.
+
+### Loan Status Distribution
+We observed that most loans are either fully paid, current, or charged-off. This distribution helps in understanding the general loan lifecycle.
+
+### Loan Amount vs Interest Rate
+There is a positive correlation between loan amount and interest rate. Higher loan amounts typically come with higher interest rates, indicating greater risk.
+
+### Annual Income vs Loan Status
+Borrowers with lower annual income tend to default more, showing that income is an important factor in loan repayment capacity.
+
+### Correlation Matrix
+The correlation matrix revealed key relationships between numerical variables, such as the strong correlation between loan amount and interest rate.
+
 
 ## Acknowledgements
 Give credit here.
@@ -42,11 +53,5 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@Aakashbhardwaj27](https://github.com/Aakashbhardwaj27) - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
